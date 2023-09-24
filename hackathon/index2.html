@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    #ab,#bc,#cd,#de{
+        width: 1280px;
+        height: 653px;
+    }
+    h2{
+        padding-right: 150px;
+        color: black;
+    }
+    h3{
+      color:rgb(238, 231, 238);
+    }
+    a{
+      text-decoration: none;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div id="multi-item-example" class="carousel slide carousel-multi-item"  data-interval="false">
+<div class="container">
+  <div id="multi-item-example" class="carousel slide carousel-multi-item"  data-interval="false"></div>
+  <div id="myCarousel" class="carousel slide" data-interval="false">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      
+    </ol>
+    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-interval="false"></div>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active" id="ab">
+        <img src="s1.jpg" alt="ACNE">
+        <div class="carousel-caption">
+          <h2><a href="Acne.html">ACNE</a></h2>
+          <h3>A skin condition that occurs when hair follicles plug with oil and dead skin cells.
+          </h3>
+          <h3>Acne is most common in teenagers and young adults</h3>
+        </div>
+      </div>
+      <div class="item" id="bc">
+        <img src="s2.jpg".jpg" alt="HIVES">
+        <div class="carousel-caption">
+          <h2><a href="Hives.html">HIVES</a></h2>
+          <h3>Hives is a common skin rash triggered by many things,including certain foods,medication and stress.</h3>
+        </div>
+      </div>
+      <div class="item" id="de" >
+        <img src="s3.jpg".jpg" alt="FUNGAL">
+        <div class="carousel-caption">
+          <h2><a href="fungus.html">Fungus</a></h2>
+          <h3>A Fungus that invades the tissue can cause a disease that's confined to the skin, spreads into tissue,bones and organs or affects the whole body.</h3>
+        </div>
+      </div>
+      <div class="item" id="cd" data-interval="false">
+        <img src="s6.jpg".jpg" alt="ROSACEA">
+        <div class="carousel-caption">
+          <h2><a href="rosacea.html">ROSACEA</a></h2>
+          <h3>A condition that causes redness and often small,red,pus-filled bumps on the face.</h3>
+        </div>
+      </div>
+  
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+</body>
+</html>
